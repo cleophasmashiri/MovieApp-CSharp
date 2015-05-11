@@ -21,9 +21,9 @@ namespace MovieApp.API
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Movie Get(int id)
         {
-            return "value";
+            return Get().Where(x => x.Id == id).FirstOrDefault();
         }
 
         // POST api/values
