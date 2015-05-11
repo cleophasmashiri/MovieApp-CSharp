@@ -2,6 +2,5 @@
   "name": "MovieApp",
   "private": true,
   "dependencies": {
-    "angular": "*"
   }
 }

@@ -16,7 +16,7 @@ namespace MovieApp.API
         [HttpGet]
         public IEnumerable<Movie> Get()
         {
-            return null;
+            return new List<Movie> { new Movie {Id=1, Title="Other People's Money", Director="Danny Davito" }, new Movie { Id = 2, Title = "Basic Instinct", Director = "Michael Douglas" }, new Movie { Id = 3, Title = "America Pie", Director = "Some Director" } };
         }
 
         // GET api/values/5
